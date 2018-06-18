@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
-![Alt Text](https://github.com/raphaelcunha/Hyundai/dashboard.gif)
+![Alt Text](https://github.com/raphaelcunha/Hyundai/blob/master/dashboard.gif)
 
 ## Development server
 
