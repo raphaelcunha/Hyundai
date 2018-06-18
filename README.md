@@ -4,6 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ![Alt Text](https://github.com/raphaelcunha/Hyundai/blob/master/dashboard.gif)
 
+## Obs:
+
+Desenvolver a página de forma responsiva, com Breakpoints para Desktop, Tablet e Smartphone, implementado inicialmente, não finalizado.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
