@@ -1,0 +1,20 @@
+nav {
+  a {
+    color: #86adfc;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    &.active {
+      color: white;
+      &::after {
+        content: "○";
+        opacity: 0.6;
+        font-size: 13px;
+        position: relative;
+        top: 14px;
+        left: -11%;
+      }
+    }
+  }
+
+}

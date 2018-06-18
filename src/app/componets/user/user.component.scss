@@ -1,0 +1,34 @@
+.user {
+  display: flex;
+  flex-direction: row;
+  padding: 0 25px;
+  color: white;
+  img {
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 25px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    .job {
+      font-size: 12px;
+      opacity: 0.6;
+      text-transform: uppercase;
+    }
+  }
+
+  .dots {
+    margin-left: 25px;
+    &::after {
+      content: "○ ○ ○";
+      font-size: 13px;
+      position: relative;
+      top: 5px;
+      left: -11%;
+    }
+  }
+
+}

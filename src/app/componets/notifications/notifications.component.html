@@ -1,0 +1,105 @@
+<div class="icon-notifications">
+  <a href="#" (click)="showNotifications()">
+    <img src="../../../assets/images/icones/notification.png" />
+  </a>
+</div>
+
+<div class="sidebar animated " [ngClass]="{'slideInRight': Notifications === false, 'slideOutRight': Notifications === true}">
+  <div class="search">
+    <div class="title">
+      <h2>Notifications Feed</h2>
+      <span>Use Filters to see a specific type of content</span>
+    </div>
+    <div class="icon">
+      <img width="33" height="33" src="../../../assets/images/icones/search.png"/>
+    </div>
+  </div>
+  <div class="filters">
+    <button class="btn btn-primary active" type="submit">
+      <img width="25" height="25" src="../../../assets/images/icones/bell.png" />
+    </button>
+    <button class="btn" type="submit">
+      <img width="25" height="25"  src="../../../assets/images/icones/msg.png" />
+    </button>
+    <button class="btn" type="submit">
+      <img width="25" height="25" src="../../../assets/images/icones/cell.png" />
+    </button>
+    <button class="btn" type="submit">
+      <img width="25" height="25" src="../../../assets/images/icones/hand.png" />
+    </button>
+  </div>
+
+  <span class="all">All Notifications</span>
+  <hr />
+
+  <div class="feeds">
+    <div class="section">
+      <div class="period"> ○ <span>Today</span> </div>
+      <div class="feed">
+        <div class="icon">
+          <img width="25" height="25" src="../../../assets/images/icones/msg.png" />
+        </div>
+        <div class="title">
+          Mike Copeland <span class="status">wrote</span>
+        </div>
+
+        <div class="date">
+          15 May 2017 at 11:34 AM
+        </div>
+
+        <div class="reply">
+          <a href="#" class="float-right font-weight-bold"> reply →</a>
+        </div>
+
+        <div class="menssage">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam, urna sed tincidunt auctor, nunc magna vulputate dolor, a interdum nunc lacus eget ipsum. Phasellus molestie arcu a vehicula lacinia.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="feed">
+        <div class="icon">
+          <img width="25" height="25" src="../../../assets/images/icones/msg.png" />
+        </div>
+        <div class="title">
+          Mike Copeland <span class="status">wrote</span>
+        </div>
+
+        <div class="date">
+          15 May 2017 at 11:34 AM
+        </div>
+
+        <div class="reply">
+          <a href="#" class="float-right font-weight-bold"> reply →</a>
+        </div>
+
+        <div class="menssage">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam, urna sed tincidunt auctor, nunc magna vulputate dolor, a interdum nunc lacus eget ipsum. Phasellus molestie arcu a vehicula lacinia.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="feed">
+        <div class="icon">
+          <img width="25" height="25" src="../../../assets/images/icones/msg.png" />
+        </div>
+        <div class="title">
+          Mike Copeland <span class="status">wrote</span>
+        </div>
+
+        <div class="date">
+          15 May 2017 at 11:34 AM
+        </div>
+
+        <div class="reply">
+          <a href="#" class="float-right font-weight-bold"> reply →</a>
+        </div>
+
+        <div class="menssage">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam aliquam, urna sed tincidunt auctor, nunc magna vulputate dolor, a interdum nunc lacus eget ipsum. Phasellus molestie arcu a vehicula lacinia.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+

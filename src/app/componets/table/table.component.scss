@@ -1,0 +1,40 @@
+table {
+  thead > tr > th {
+    font-weight: 100;
+    border-top: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #8b8f94;
+  }
+  tbody > tr {
+    background: white;
+    margin-bottom: 10px;
+    text-align: center;
+    border-top: 10px solid #f6f9fc;
+    border-bottom:  10px solid #f6f9fc;
+    border-spacing: 15px;
+    th {
+      text-align: left;
+      .campaign {
+        margin-top: 4px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 15px;
+        .name {
+          font-size: 14px;
+          font-weight: 600;
+          color: #3366ff
+        }
+        .date {
+          font-weight: 100;
+          font-size: 12px;
+          color: #5d5e60;
+        }
+      }
+    }
+    td {
+      padding-top: 1.5rem
+    }
+  }
+}
